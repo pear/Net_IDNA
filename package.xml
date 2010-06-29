@@ -8,7 +8,7 @@
   <name>Stefan Neufeind</name>
   <user>neufeind</user>
   <email>pear.neufeind@speedpartner.de</email>
-  <active>no</active>
+  <active>yes</active>
  </lead>
  <lead>
   <name>Markus Nix</name>
@@ -22,10 +22,10 @@
   <email>mso@phlylabs.de</email>
   <active>no</active>
  </lead>
- <date>2010-06-03</date>
- <time>00:58:56</time>
+ <date>2010-06-29</date>
+ <time>11:51:00</time>
  <version>
-  <release>0.8.0</release>
+  <release>0.8.1</release>
   <api>0.8.0</api>
  </version>
  <stability>
@@ -34,9 +34,8 @@
  </stability>
  <license uri="http://www.gnu.org/copyleft/lesser.html">LGPL</license>
  <notes>
-QA Release
-Bug #17430 	Multiple Net_IDNA class declarations
-Warning: This release splits this package into Net_IDNA (php4) and Net_IDNA2 (php5)
+ Fixed broken (unneeded) constructor (thanks to Daniel)
+ Re-adding test-case for php5 from earlier release (if using PHP >= 5.2.1 consider using Net_IDNA2!)
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
@@ -57,6 +56,22 @@ Warning: This release splits this package into Net_IDNA (php4) and Net_IDNA2 (ph
  </dependencies>
  <phprelease />
  <changelog>
+  <release>
+   <version>
+    <release>0.8.0</release>
+    <api>0.8.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <license uri="http://www.gnu.org/copyleft/lesser.html">LGPL</license>
+   <notes>
+QA Release
+Bug #17430 	Multiple Net_IDNA class declarations
+Warning: This release splits this package into Net_IDNA (php4) and Net_IDNA2 (php5)
+   </notes>
+  </release>
   <release>
    <version>
     <release>0.7.1</release>
