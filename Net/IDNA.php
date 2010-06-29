@@ -3025,6 +3025,8 @@ class Net_IDNA
     {
         return null;
     }
+
+    /*
      * Attempts to return a concrete IDNA instance for either php4 or php5.
      *
      * @param array $params Set of paramaters
