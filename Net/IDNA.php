@@ -3010,21 +3010,10 @@ class Net_IDNA
     */
     function Net_IDNA($options = false)
     {
-        $this->IC = new idna_convert($options);
-        return $this->IC;
     }
 
     /**
-     * Sets a new option value. Available options and values:
-     *
-     * [utf8 -     Use either UTF-8 or ISO-8859-1 as input (true for UTF-8, false
-     *             otherwise); The output is always UTF-8]
-     * [overlong - Unicode does not allow unnecessarily long encodings of chars,
-     *             to allow this, set this parameter to true, else to false;
-     *             default is false.]
-     * [strict -   true: strict mode, good for registration purposes - Causes errors
-     *             on failures; false: loose mode, ideal for "wildlife" applications
-     *             by silently ignoring errors and returning the original input instead]
+     * Empty method body
      *
      * @param mixed  $option Parameter to set (string: single parameter; array of Parameter => Value pairs)
      * @param string $param  Value to use (if parameter 1 is a string)
@@ -3034,10 +3023,8 @@ class Net_IDNA
      */
     function setParams($option, $param = false)
     {
-        return $this->IC->set_parameters($option, $param);
+        return null;
     }
-
-    /**
      * Attempts to return a concrete IDNA instance for either php4 or php5.
      *
      * @param array $params Set of paramaters
