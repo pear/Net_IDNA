@@ -1,0 +1,41 @@
+{
+    "authors": [
+        {
+            "email": "pear.neufeind@speedpartner.de",
+            "name": "Stefan Neufeind",
+            "role": "Lead"
+        },
+        {
+            "email": "mnix@docuverse.de",
+            "name": "Markus Nix",
+            "role": "Lead"
+        },
+        {
+            "email": "mso@phlylabs.de",
+            "name": "Matthias Sommerfeld",
+            "role": "Lead"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Net": "./"
+        }
+    },
+    "description": "More info available on: http://pear.php.net/package/Net_IDNA",
+    "include-path": [
+        "./"
+    ],
+    "license": "LGPL",
+    "name": "pear/net_idna",
+    "support": {
+        "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Net_IDNA",
+        "source": "https://github.com/pear/Net_IDNA"
+    },
+    "type": "library",
+    "require": {
+        "pear/pear_exception": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
