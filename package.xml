@@ -66,6 +66,7 @@
     <api>beta</api>
    </stability>
    <license uri="http://www.gnu.org/copyleft/lesser.html">LGPL</license>
+   <date>2010-06-03</date>
    <notes>
 QA Release
 Bug #17430 	Multiple Net_IDNA class declarations
@@ -82,6 +83,7 @@ Warning: This release splits this package into Net_IDNA (php4) and Net_IDNA2 (ph
     <api>beta</api>
    </stability>
    <license uri="http://www.gnu.org/copyleft/lesser.html">LGPL</license>
+    <date>2009-07-24</date>
    <notes>
 Fixed error handling (&quot;Beloved Benjamin Muskalla version&quot;)
    </notes>
